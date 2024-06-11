@@ -83,8 +83,8 @@ class Platformer extends Phaser.Scene {
             my.sprite.player1.winText.visible = false;
             my.sprite.player1.loseText.visible = false;
             my.sprite.player1.title = this.add.text(game.config.width/2 - 300, game.config.height/2, 'Bittle Battle', { fontSize: '80px', fill: '#8B0000' })
-            my.sprite.player1.title2 = this.add.text(game.config.width/2 - 100, game.config.height/2, 'press Y to start', { fontSize: '40px', fill: '#8B0000' })
-            my.sprite.player1.credits = this.add.text(game.config.width/2 - 100, game.config.height/2 + 100, 'Made by Leif Tanner\nlrtanner@ucsc.edu', { fontSize: '20px', fill: '#ffffff' })
+            my.sprite.player1.title2 = this.add.text(game.config.width/2 - 100, game.config.height/2 + 100, 'press Y to start', { fontSize: '40px', fill: '#8B0000' })
+            my.sprite.player1.credits = this.add.text(game.config.width/2 - 100, game.config.height/2, 'Made by Leif Tanner\nlrtanner@ucsc.edu', { fontSize: '20px', fill: '#ffffff' })
             my.sprite.player1.credits.visible = false;
         }
         if (!my.sprite.player2) {
